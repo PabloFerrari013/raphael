@@ -19,14 +19,16 @@ export const Container = styled.main`
   z-index: 2;
 
   > strong {
-    font-size: 18px;
-    margin-top: 8px;
+    font-size: 1.25rem;
+    margin-top: 1rem;
+    text-shadow: 1px 1px 1px #977915;
   }
 
   > p {
-    margin-bottom: 32px;
+    margin-bottom: 2rem;
     margin-top: 4px;
     font-size: 16px;
+    text-shadow: 1px 1px 1px #977915;
   }
 
   a {
@@ -50,8 +52,8 @@ export const Container = styled.main`
     border: 2px solid #f5f5f5;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
     font-weight: bold;
-    text-shadow: 1px 1px 1px #222;
-    background-color: rgba(125, 125, 125, 0.2);
+    text-shadow: 1px 1px 1px #977915;
+    background-color: transparent;
 
     > span {
       overflow: hidden;
@@ -61,15 +63,15 @@ export const Container = styled.main`
 
     &:hover {
       transform: scale(1.05);
-      background-color: rgba(125, 125, 125, 0.3);
+      background-color: rgba(125, 125, 125, 0.1);
     }
   }
 `
 
 export const Img = styled.div`
-  width: 80px;
-  height: 80px;
-  border-radius: 80px;
+  width: 8.75rem;
+  height: 8.75rem;
+  border-radius: 8.75rem;
   display: block;
   overflow: hidden;
 `

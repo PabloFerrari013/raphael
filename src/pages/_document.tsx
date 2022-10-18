@@ -15,7 +15,12 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           />
 
-          <link rel="shortcut icon" href="logo.jfif" type="image/x-icon" />
+          <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+
+          <meta
+            name="description"
+            content="Somos especilistas em fotografia familiar, com foco em fotografia infantíl, locação de estúdio e ensáio corparativo. Atendemos em toda a Grande Vitória(Vila Velha, Vitória, Serra e Cariacica)."
+          />
         </Head>
 
         <body>

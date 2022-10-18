@@ -7,7 +7,7 @@ const Layout: React.FC = () => {
   return (
     <>
       <Head>
-        <title>Rapahel Cabral</title>
+        <title>Rapahel Cabral | Fotografias</title>
       </Head>
 
       <Container>

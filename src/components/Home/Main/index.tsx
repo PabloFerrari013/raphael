@@ -2,11 +2,10 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
-import Logo from '../../../../public/logo.jpg'
+import Logo from '../../../../public/logo.png'
 
 import {
   AlbumIcon,
-  ClockIcon,
   Container,
   Img,
   EmailIcon,
@@ -24,9 +23,12 @@ const Main: React.FC = () => {
 
       <strong>@raphaelcabralfotografia</strong>
 
-      <p>Somos especialistas em festas infantis</p>
+      <p>Somos especialistas em festas infantís</p>
 
-      <Link href="https://api.whatsapp.com/send?phone=5527981573037" passHref>
+      <Link
+        href="https://api.whatsapp.com/send?phone=5527981573037&text=Podemos%20marcar%20um%20hor%C3%A1rio%20%3F%20"
+        passHref
+      >
         <a target="_blank" rel="noreferrer">
           <WhatsAppIcon />
           <span>Vamos conversar no WhatsApp?</span>
@@ -34,18 +36,7 @@ const Main: React.FC = () => {
       </Link>
 
       <Link
-        href="https://api.whatsapp.com/send?phone=5527981573037&text=Ol%C3%A1%2C%20gostaria%20de%20marcar%20um%20hor%C3%A1rio"
-        target="_blank"
-        passHref
-      >
-        <a target="_blank" rel="noreferrer">
-          <ClockIcon />
-          <span>Vamos marcar um horário?</span>
-        </a>
-      </Link>
-
-      <Link
-        href="https://goo.gl/maps/Mm3upT58NAuX32yN9"
+        href="https://goo.gl/maps/fTGzXrusMzUWf1Db6"
         target="_blank"
         passHref
       >
@@ -66,17 +57,17 @@ const Main: React.FC = () => {
         </a>
       </Link>
 
-      <Link href="mailto:@raphaelcabralfotografia" passHref>
-        <a>
-          <EmailIcon />
-          <span>Envie um e-mail</span>
+      <Link href="/serviços.pdf" passHref target="_blank">
+        <a download target="_blank">
+          <AlbumIcon />
+          <span>Consulte nossos serviços</span>
         </a>
       </Link>
 
-      <Link href="/albuns.pdf" passHref target="_blank">
-        <a download target="_blank">
-          <AlbumIcon />
-          <span>Veja nossos álbuns</span>
+      <Link href="mailto:raalestudio@gmail.com" passHref>
+        <a>
+          <EmailIcon />
+          <span>Envie um e-mail</span>
         </a>
       </Link>
     </Container>

@@ -2,7 +2,7 @@ import Image from 'next/image'
 import { useRouter } from 'next/router'
 import React, { useEffect, useState } from 'react'
 
-import logo from '../../../public/logo.jpg'
+import logo from '../../../public/logo.png'
 
 import { Container } from './styles'
 

@@ -2,18 +2,20 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   width: 100vw;
-  height: 100vh;
   min-height: 100vh;
-  padding: 4rem 2rem;
+  /* padding: 4rem 2rem; */
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  background-image: url('/background.jpg');
+
+  background-color: #ffc200;
+
+  /* background-image: url('/background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center; */
   position: fixed;
   z-index: 1000;
   top: 0;
