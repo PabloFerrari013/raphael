@@ -21,6 +21,8 @@ export default class MyDocument extends Document {
             name="description"
             content="Somos especilistas em fotografia familiar, com foco em fotografia infantíl, locação de estúdio e ensáio corparativo. Atendemos em toda a Grande Vitória(Vila Velha, Vitória, Serra e Cariacica)."
           />
+
+<meta name="google-site-verification" content="qqEDvkfukQ56GZshW9HPXJbQpAtEfosDSSK8tOMYRFg" />
         </Head>
 
         <body>
