@@ -53,16 +53,16 @@ const Main: React.FC = () => {
       >
         <a target="_blank" rel="noreferrer">
           <InstagranIcon />
-          <span>Veja nosso perfil do Intagran</span>
+          <span>Veja nosso perfil do Instagram</span>
         </a>
       </Link>
 
-      <Link href="/serviços.pdf" passHref target="_blank">
+      {/* <Link href="/serviços.pdf" passHref target="_blank">
         <a download target="_blank">
           <AlbumIcon />
           <span>Consulte nossos serviços</span>
         </a>
-      </Link>
+      </Link> */}
 
       <Link href="mailto:raalestudio@gmail.com" passHref>
         <a>
